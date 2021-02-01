@@ -103,7 +103,7 @@ elseif(strpos($pagamento, 'Tarjeta valida') !== false) {
 elseif(strpos($pagamento, 'awesome') !== false) {
   echo '<span class="badge badge-success">#Aprovada Checker By @carlonch5</span> '.$cc.' '.$mes.' '.$ano.' '.$cvv.' <b>'.$bin.'</b>';
 }
-elseif(strpos($pagamento, 'La carga de crÃ©dito no pudo completarse Â¿IntentÃ¡s en unos minutos?') !== false) {
+elseif(strpos($pagamento, 'La carga de crédito no pudo completarse ¿Intentás en unos minutos?') !== false) {
   echo '<span class="badge badge-danger">#Reprovada Checker By @carlonch5</span> '.$cc.' '.$mes.' '.$ano.' '.$cvv.' <b>'.$bin.'</b>';
 }
 elseif(strpos($message, 'nmjhj') !== false) {
